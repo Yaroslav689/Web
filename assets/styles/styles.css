@@ -1,3 +1,14 @@
 .main-header {
     background-color:green;
 }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding-inline: 24px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
