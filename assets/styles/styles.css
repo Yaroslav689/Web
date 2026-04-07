@@ -27,3 +27,61 @@
     font-weight: 400;
     font-display: swap;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header {
+    display: flex;
+    align-items: center;
+
+    height: 120px;
+    padding: 0 7%;
+
+    background-color: #ffffff;
+}
+.header__left {
+    display: flex; 
+    align-items: center;
+    gap: 4rem;
+}
+.header__logo {
+    font-family: 'Quella', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+.header__nav ul {
+    display: flex;
+    gap: 3rem;  
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;  
+
+    list-style: none;           
+}
+.header__link--home {
+    color: #1E1E1E;
+}
+.header__link--products {
+    color:#1E1E1E;
+    opacity: 0.5;
+}
+.header__link--contacts {
+    color:#1E1E1E;
+    opacity: 0.5;
+}
+.header__actions {
+    display: flex;
+    gap: 2rem;
+    margin-left: auto;
+}
+.header__actions img {
+    width: 20px;
+    height: 20px;
+}
+.header__actions img.search-icon {
+    width: 18px;
+    height: 19px;
+}
