@@ -90,7 +90,7 @@ a {
 .main {
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 6rem;
     min-height: 1200px;
     padding: 0 5%;
 
@@ -264,7 +264,7 @@ a {
 
     width: 100%;
     max-width: 1440px;
-    min-height: 485px;
+    min-height: 420px;
 
     background-color: #ffffff;
 }
@@ -342,6 +342,104 @@ a {
     font-family: 'Poppins' sans-serif;
     font-size: 18px;
     font-weight: 500;
+    color: #1E1E1E;
+    opacity: 0.5;
+}
+/*----------------------------*/
+.about {
+    display: flex;
+    justify-content: center;
+}
+.about__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+    overflow: hidden;
+
+    width: 100%;
+    max-width: 1440px;
+    min-height: 420px;
+
+    background-color: #ffffff;
+    /* border: black solid 2px; */
+}
+.about__cta {
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+
+    /* border: black solid 2px; */
+    width: 430px;
+    height: 90px;
+}
+.about__cta h2 {
+    margin: 0;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #1E1E1E;
+}
+.about__cta p {
+    margin-top: 1.2rem;
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1E1E1E;
+    opacity: 0.5;
+}
+.about__benefits {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: row;
+
+    /* border: black solid 2px; */
+    width: 1300px;
+    height: 210px;
+}
+.about__circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+    background-color: #C1DCDC;
+}
+.about__circle img {
+    width: 42px;
+    height: 42px;
+}
+.about__benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+    width: 400px;
+    height: 250px;
+}
+.about__benefit h3 {
+    margin-top: 1.7rem;
+    margin-bottom: 1rem;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1E1E1E;
+}
+.about__benefit p {
+    margin: 0;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.4;
     color: #1E1E1E;
     opacity: 0.5;
 }
