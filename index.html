@@ -6,6 +6,7 @@
     <title>GREENMIND</title>
     <link rel="stylesheet" href="assets/styles/normalize.css">
     <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="icon" href="data:,">
 </head>
 <body>
     <header class="header">
@@ -59,31 +60,43 @@
         <section class="product">
             <div class="product__content">
                 <div class="product__info">
-                    <h2><a href="#">Best Selling Plants</a></h2>
+                    <h2>Best Selling Plants</h2>
                     <p>Easiest way to healthy life by buying your favorite plants</p>
                     <button>
                         See more
-                        <img src="assets/img/product/btn-arrow.png">
+                        <img src="assets/img/product/btn-arrow.png" alt="arrow">
                     </button>   
                 </div>    
-                <div class="product__media">
-                    <a href="#"><img src="assets/img/product/frame-1.png" alt="frame-1"></a>
-                    <small class="product__plant-name">Natural Plant</small>
-                    <small class="product__plant-price">$14.00</small>
-                </div>
-                <div class="product__media">
-                    <a href="#"><img src="assets/img/product/frame-2.png" alt="frame-2"></a>
-                    <small class="product__plant-name">Artificial Plant</small>
-                    <small class="product__plant-price">$9.00</small>
-                </div>
-                <div class="product__media">
-                    <a href="#"><img src="assets/img/product/frame-3.png" alt="frame-3"></a>
-                    <small class="product__plant-name">Natural Plant</small>
-                    <small class="product__plant-price">$35.00</small>
-                </div>
+                <ul class="product__list">
+                    <li class="product__card">
+                        <img src="assets/img/product/frame-1.png" alt="frame-1">
+                        <h3>Natural Plant</h3>
+                        <span>$14.00</span>
+                    </li>
+                    <li class="product__card">
+                        <img src="assets/img/product/frame-2.png" alt="frame-2">
+                        <h3>Artificial Plant</h3>
+                        <span>$9.00</span>
+                    </li>
+                    <li class="product__card">
+                        <img src="assets/img/product/frame-3.png" alt="frame-3">
+                        <h3>Natural Plant</h3>
+                        <span>$24.50</span>
+                    </li>
+                    <li class="product__card--hidden">
+                        <img src="assets/img/product/frame-3.png" alt="frame-3">
+                        <h3>Natural Plant</h3>
+                        <span>$23.00</span>
+                    </li>
+                    <li class="product__card--hidden">
+                        <img src="assets/img/product/frame-3.png" alt="frame-3">
+                        <h3>Natural Plant</h3>
+                        <span>$6.00</span>
+                    </li>
+                </ul>
             </div>
         </section>
-        <section class="about">
+        <!-- <section class="about">
             <div class="about__content">
                 <div class="about__cta">
                     <h2><a href="#">About us</a></h2>
@@ -107,6 +120,6 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
 </body    
