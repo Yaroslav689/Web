@@ -1486,12 +1486,12 @@ a {
 .categories__content {
     display: flex;
     flex-direction:column;
-    gap:2.5rem;
+    gap:3.5rem;
     z-index: 1;
 
     width: 100%;
     max-width: 1440px;
-    min-height: 1000px;
+    min-height: 1020px;
 }
 .categories__cta {
     display: flex;
@@ -1534,7 +1534,7 @@ a {
     flex-direction: column;
     gap: 0.8rem;
     align-items: center;
-    justify-self: center;
+    /* justify-self: center; */
 
     max-width: 350px;
 }
@@ -1598,7 +1598,7 @@ a {
 }
 @media screen and (max-width: 1260px) {
     .categories__content {
-        gap:2.1rem;
+        gap: 3rem;
         min-height: 875px;
     }
     .categories__cta {
@@ -1610,9 +1610,15 @@ a {
     .categories__cta p {
         font-size: 16px;
     }
+    .categories__cards {
+        gap: 4.7rem;
+    }
     .categories__card {
         max-width: 310px;
         gap: 0.7rem;
+    }
+    .is-middle {
+        padding-top: 80px;
     }
     .categories__card img { 
         max-height: 450px;
@@ -1632,8 +1638,8 @@ a {
 }
 @media screen and (max-width: 1100px) {
     .categories__content {
-        gap:1.8rem;
-        min-height: 785px;
+        gap:2.7rem;
+        min-height: 720px;
     }
     .categories__cta {
         gap: 0.5rem;
@@ -1642,13 +1648,16 @@ a {
         font-size: 14px;
     }
     .categories__cards {
-        gap:3rem;
+        gap:3.7rem;
     }
     .categories__card {
-        max-width: 290px;
+        max-width: 250px;
+    }
+    .is-middle {
+        padding-top: 61px;
     }
     .categories__card img { 
-        max-height: 380px;
+        max-height: 340px;
     }
     .categories__card h3 {
         font-size: 14px;
@@ -1663,7 +1672,7 @@ a {
     }
     
 }
-@media screen and (max-width: 970px) {
+/* @media screen and (max-width: 970px) {
     .categories__content {
         gap:1.6rem;
         min-height: 725px;
@@ -1674,14 +1683,14 @@ a {
     .categories__card img { 
         max-height: 340px;
     }
-}
+} */
 @media screen and (max-width: 830px) {
     .categories {
         padding: 0 2%;
     }
     .categories__content {
-        gap:1.6rem;
-        min-height: 580px;
+        gap:1.7rem;
+        min-height: 560px;
     }
     .categories__cta {
         gap: 0.4rem;
@@ -1693,11 +1702,14 @@ a {
         font-size: 12px;
     }
     .categories__cards {
-        gap: 1rem;
+        gap: 2.4rem;
     }
     .categories__card {
         max-width: 170px;
         gap: 0.5rem;
+    }
+    .is-middle {
+        padding-top: 50px;
     }
     .categories__card h3 {
         font-size: 12px;
@@ -1711,11 +1723,98 @@ a {
     .categories__button {
         font-size: 12px;
         width: 95px;
-        height: 34px;
+        height: 35px;
         border-radius: 6px;
+        font-weight: 700;
+        gap: 0.4rem;
     }
     .categories__button img {
         width: 15px;
         height: 15px;
+    }
+}
+@media screen and (max-width: 630px) {
+    .categories__content {
+        gap:1.2rem;
+        min-height: 480px;
+    }
+    .categories__cta {
+        gap: 0.4rem;
+    }
+    .categories__cta h2 {
+        font-size: 20px;
+    }
+    .categories__cta p {
+        font-size: 10px;
+    }
+    .categories__cards {
+        gap: 2rem;
+    }
+    .categories__card {
+        max-width: 145px;
+        gap: 0.5rem;
+    }
+    .is-middle {
+        padding-top: 47px;
+    }
+    .categories__card h3 {
+        font-size: 10px;
+    }
+    .categories__card p {
+        font-size: 10px;
+    }
+    .categories__card img { 
+        max-height: 235px;
+    }
+    .categories__button {
+        font-size: 10px;
+        width: 85px;
+        height: 30px;
+        /* border-radius: 6px; */
+    }
+    .categories__button img {
+        width: 13px;
+        height: 13px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .categories__content {
+        gap: 1rem;
+        min-height: 360px;
+    }
+    .categories__cta {
+        gap: 0.2rem;
+    }
+    .categories__cta h2 {
+        font-size: 18px;
+    } 
+    .categories__cta p {
+        font-size: 8px;
+    } 
+    .categories__card {
+        max-width: 100px;
+        gap: 0.2rem;
+    }
+    .categories__cards {
+        gap: 0.8rem;
+    }
+    .categories__card img {
+        max-height: 190px;
+    }
+    .categories__card h3 {
+        font-size: 8px;
+    }
+    .categories__card p {
+        font-size: 8px;
+    }
+    .categories__button {
+        font-size: 8px;
+        height: 22px;
+        width: 65px;
+        border-radius: 4px;
+    }
+    .categories__button img {
+        width: 10px;
+        height: 10px;
     }
 }
